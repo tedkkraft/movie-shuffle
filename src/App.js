@@ -1,22 +1,24 @@
-import logo from './logo.svg';
+import curtains from './theatre-curtains.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={curtains} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Enter your Letterboxd username here
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+            <div class="row">
+                <div class="form-group col text-center">
+                    <input type="username" class="form-control text-center" id="songTitle" placeholder="Song"/>
+                </div>
+            </div>
+
+            <div class="row justify-content-center cbod">
+                <button type="submit" class="btn btn-danger w-25 m-3 btn-search" id="sub">Search</button>
+            </div>
+
       </header>
     </div>
   );
