@@ -1,3 +1,6 @@
+ON HOLD: This project is on hold as the Letterboxd API is still under private Beta.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
